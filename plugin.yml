@@ -1,0 +1,13 @@
+name: "Macuinfo"
+version: "0.1"
+main: "vb.$macuinfo.PluginMain"
+api-version: 1.13
+authors: [editor99]
+description: "Displays info about the server"
+commands:
+  info:
+    aliases: [wth]
+    description: "Displays info about the server"
+    permission-message: "&eYou should be able to use this command! Contact editor99"
+    usage: "/info"
+permissions:
