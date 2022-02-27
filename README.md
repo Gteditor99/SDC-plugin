@@ -23,7 +23,7 @@ Object STRING = null;
 			org.bukkit.Bukkit.broadcastMessage(String.valueOf(STRING));
 ```
 
-then edit plugin.yml to your liking
+then edit plugin.yml to your liking,
 
 ```yml
 name: "NAME"
@@ -40,3 +40,11 @@ commands:
     usage: "USAGE"
 permissions:
 ```
+
+finally, build the plugin with maven:
+
+```
+mvn compile
+mvn package
+```
+
