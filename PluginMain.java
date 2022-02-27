@@ -16,8 +16,8 @@ public class PluginMain extends JavaPlugin implements Listener {
 		instance = this;
 		getServer().getPluginManager().registerEvents(this, this);
 		try {
-			Object $9b4ecf8bbe19431f15c6f4c7ef54e784 = null;
-			org.bukkit.Bukkit.broadcastMessage(String.valueOf($9b4ecf8bbe19431f15c6f4c7ef54e784));
+			Object STRING = null;
+			org.bukkit.Bukkit.broadcastMessage(String.valueOf(STRING));
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -32,7 +32,7 @@ public class PluginMain extends JavaPlugin implements Listener {
 		if (command.getName().equalsIgnoreCase("info")) {
 			try {
 				commandSender.sendMessage(ChatColor.translateAlternateColorCodes('&',
-						"&cWelcome to the -Macu SMP- Where you are free of capitalistic propaganda!"));
+						"Message to be displayed"));
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
