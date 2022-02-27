@@ -1,5 +1,5 @@
 ## SDC-plugin
-A Simple Display Command plugin made with bukkit 
+A Simple Display Command plugin using the bukkit api
 
 
 
