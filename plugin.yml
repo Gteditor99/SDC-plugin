@@ -1,13 +1,13 @@
-name: "Macuinfo"
-version: "0.1"
-main: "vb.$macuinfo.PluginMain"
+name: "NAME"
+version: "VERSION"
+main: "MAIN"
 api-version: 1.13
-authors: [editor99]
-description: "Displays info about the server"
+authors: [AUTHORS]
+description: "DESCRIPTION"
 commands:
   info:
-    aliases: [wth]
-    description: "Displays info about the server"
-    permission-message: "&eYou should be able to use this command! Contact editor99"
-    usage: "/info"
+    aliases: [ALIASES]
+    description: "DESCRIPTION"
+    permission-message: "PERMISSION MESSAGE"
+    usage: "USAGE"
 permissions:
