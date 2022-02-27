@@ -29,7 +29,7 @@ then edit plugin.yml to your liking
 name: "NAME"
 version: "VERSION"
 main: "MAIN"
-api-version: 1.13
+api-version: API VERSION
 authors: [AUTHORS]
 description: "DESCRIPTION"
 commands:
