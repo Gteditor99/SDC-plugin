@@ -40,7 +40,7 @@ commands:
     usage: "USAGE"
 permissions:
 ```
-
+then paste the .java file and .yml file in the .src folder located in your project
 finally, build the plugin with maven:
 
 ```
